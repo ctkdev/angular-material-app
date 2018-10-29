@@ -8,8 +8,8 @@ import { SigninComponent } from './pages/signin/signin.component';
 const routes: Routes = [
   { path: '', redirectTo: '/pages/blog', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomeModule' },
-  { path: 'sigin', component: SigninComponent },
-  { path: 'sigup', component: SignupComponent },
+  { path: 'signin', component: SigninComponent },
+  { path: 'signup', component: SignupComponent },
   {
     path: '',
     component: AdminComponent,

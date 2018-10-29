@@ -247,16 +247,16 @@ export class NavigationModel {
         icon: 'more_horiz',
         children: [
           {
-            id: 'sigin',
+            id: 'signin',
             title: '登录',
             type: 'item',
-            url: '/sigin'
+            url: '/signin'
           },
           {
-            id: 'sigup',
+            id: 'signup',
             title: '注册',
             type: 'item',
-            url: '/sigup'
+            url: '/signup'
           }
         ]
       },
