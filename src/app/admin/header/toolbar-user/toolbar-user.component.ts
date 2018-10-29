@@ -8,7 +8,7 @@ import { AuthService } from '../../../core/auth.service';
   styleUrls: ['./toolbar-user.component.scss']
 })
 export class ToolbarUserComponent implements OnInit {
-  isOpen: boolean = false;
+  isOpen = false;
   currentUser = null;
 
   @HostListener('document:click', ['$event', '$event.target'])
@@ -41,7 +41,7 @@ export class ToolbarUserComponent implements OnInit {
 
   logout() {
     this.auth.signOut().then(() => {
-      this.router.navigate(['/sigin']);
+      this.router.navigate(['/signin']);
     });
   }
 }
